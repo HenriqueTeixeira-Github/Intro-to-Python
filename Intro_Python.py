@@ -258,3 +258,16 @@ letters = ['a', 'b', 'c', 'd']
 letters.append('z')
 print(letters)
 # Result:  ['a', 'b', 'c', 'd', 'z']
+
+# Tuples
+# Description: A tuple is another useful container. It's a data type for immutable ordered sequences of elements.
+
+# Example:
+location = (13.4125, 103.866667)
+print("Latitude:", location[0])
+print("Longitude:", location[1])
+
+#Example: Tuple unpacking (In this example the paranteses are omitted)
+dimensions = 52, 40, 100
+length, width, height = dimensions
+print("The dimensions are {} x {} x {}".format(length, width, height))
