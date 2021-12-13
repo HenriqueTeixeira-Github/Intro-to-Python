@@ -124,3 +124,32 @@ is_not_teen = not(age > 12 and age < 20)
 print(is_teen)
 # Result
 # False
+
+# String - Data type to save texts
+
+my_string = 'this is a string!'
+my_string2 = "this is also a string!!!"
+
+this_string = 'Simon\'s skateboard is in the garage.'
+print(this_string)
+# Result: Simon's skateboard is in the garage.
+
+# Concatenation
+
+first_name = "John"
+last_name = "Doe"
+full_name = first_name + " " + last_name
+print(full_name)
+# Result: John Doe
+
+# Function len()
+
+# The len() is a built-in Python function that returns the length of an object, like a string.
+len(first_name) # -> 4
+
+# Indexing - Notice Python uses 0 indexing
+
+first_name[0]
+# Result: "J"
+first_name[1]
+# Result: "o"
