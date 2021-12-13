@@ -195,3 +195,11 @@ print(address)
 maria_string = "Maria loves {} and {}"
 print(maria_string.format("math", "statistics"))
 # Result: Maria loves math and statistics
+
+.split("sep", "maxsplit") # It splits a string into a list of evaluates
+# Example:
+new_str = "The cow jumped over the moon."
+new_str.split()
+# Result: ['The', 'cow', 'jumped', 'over', 'the', 'moon.']
+new_str.split(' ', 3)
+# Result: ['The', 'cow', 'jumped', 'over the moon.']
