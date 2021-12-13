@@ -170,3 +170,28 @@ print(type(house_name))     # <class 'int'="">
 
 address = str(house_number) + " " + street_name + ", " + town_name
 print(address)
+
+# String Methods
+
+.title() # Capitalize the first letter for each word
+# Example:
+"john doe".title()
+# Result: John Doe
+
+.lower() # Make the string all lowercase
+
+.upper() # Make the string all uppercase
+
+.islower() # Check if the string is all lowercase
+
+.isupper() # Check if the string is all uppercase
+
+.count("arguments") # Count the number of times the argumment appears
+
+.find("arguments") # Find the index of a argument
+
+.format("arguments") # input some text in a string
+# Example:
+maria_string = "Maria loves {} and {}"
+print(maria_string.format("math", "statistics"))
+# Result: Maria loves math and statistics
