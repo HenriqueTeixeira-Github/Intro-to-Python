@@ -42,3 +42,27 @@ print(3+5)
 # Example:
 7//3
 # Result: 2
+
+# Variables
+
+# Assigning one variable
+x = 3
+
+# Assigning multiple variable
+x, y, z = 2, 3, 4
+
+# The pythonic way to name variables is to use all lowercase letters and underscores to separate words
+
+my_height = 58
+my_lat = 40
+my_long = 105
+
+# Assignment Operators
+
+x += 2 # -> x = x + 2
+x -= 2 # -> x = x - 2
+x *= 2 # -> x = x * 2 
+x /= 2 # -> x = x / 2
+x %= 2 # -> x = x % 2
+x //= 2 # -> x = x // 2
+x **= 2 # -> x = x ** 2
