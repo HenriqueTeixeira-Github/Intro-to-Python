@@ -271,3 +271,19 @@ print("Longitude:", location[1])
 dimensions = 52, 40, 100
 length, width, height = dimensions
 print("The dimensions are {} x {} x {}".format(length, width, height))
+
+# Sets
+# Description: A set is a data type for mutable unordered collections of unique elements. One application of a set is to quickly remove duplicates from a list
+
+# Defining a set
+numbers = [1, 2, 6, 3, 1, 1, 6]
+unique_nums = set(numbers)
+print(unique_nums) # {1, 2, 3, 6}
+# Or
+fruit = {"apple", "banana", "orange", "grapefruit"}
+
+# Methods:
+.add("Element") # Add an element to the set
+.pop() # Remove a random element from the set
+
+# It is possible to use de "in" and "not in" operators in Sets
