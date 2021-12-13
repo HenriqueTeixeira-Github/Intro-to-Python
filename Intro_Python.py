@@ -89,3 +89,38 @@ float(4) # -> 4.0
 
 # Exceptions: Is a problem that occurs when the code is running
 # Syntax Error: Is a problem detected when Python checks the code before it runs it
+
+# Boolean
+# Bool - A boolean is a data type that can have a value of true or false
+
+# Example:
+x = 42 > 43 # -> false
+
+# Comparison Operators
+
+# <  -> Less than
+# >  -> Greater than
+# <= -> Less than or equal to
+# >= -> Greater than or equal to
+# == -> equal to
+# != -> not equal to
+
+# Logical Operators
+
+# and -> evaluates if both sides are true
+# or  -> evaluates if at least one side is true
+# no  -> inverses a boolean type
+
+# Example
+age = 14
+is_teen = age > 12 and age < 20
+print(is_teen)
+# Result
+# True
+
+# Example
+age = 14
+is_not_teen = not(age > 12 and age < 20)
+print(is_teen)
+# Result
+# False
