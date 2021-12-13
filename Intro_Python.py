@@ -84,3 +84,8 @@ float(4) # -> 4.0
 
 # Be aware that float numbers use the approximation of a number.
 # So you need to be careful to some operations like equalit.
+
+# Types of errors in python:
+
+# Exceptions: Is a problem that occurs when the code is running
+# Syntax Error: Is a problem detected when Python checks the code before it runs it
