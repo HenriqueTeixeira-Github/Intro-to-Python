@@ -236,3 +236,25 @@ print(months[months[6:]) # ['July', 'August', 'September', 'October', 'November'
 'isa' in 'this is a string' # False
 5 not in [1, 2, 3, 4, 6] # True
 5 in [1, 2, 3, 4, 6] # False
+
+#  List Methods
+
+.len() # Returns how many elements are in a list.
+.max() # Returns the greatest element of the list
+.min() # Returns the smallest element in a list.
+.sorted() # Returns a copy of a list in order from smallest to largest, leaving the list unchanged.
+
+.join() # Join is a string method that takes a list of strings as an argument, and returns a string consisting of the list elements joined by a separator string.
+
+# Example
+name = "-".join(["García", "O'Kelly"])
+print(name)
+# Result: García-O'Kelly
+
+.append() # Adds an element to the end of a list.
+
+# Example
+letters = ['a', 'b', 'c', 'd']
+letters.append('z')
+print(letters)
+# Result:  ['a', 'b', 'c', 'd', 'z']
