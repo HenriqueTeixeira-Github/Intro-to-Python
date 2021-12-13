@@ -203,3 +203,36 @@ new_str.split()
 # Result: ['The', 'cow', 'jumped', 'over', 'the', 'moon.']
 new_str.split(' ', 3)
 # Result: ['The', 'cow', 'jumped', 'over the moon.']
+
+# List - Data structures are containers that organize and group data types together in different ways.
+# A list is one of the most common and basic data structures in Python.
+
+# Example
+months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
+print(months[0])  # January
+print(months[1])  # February
+print(months[7])  # August
+print(months[-1]) # December
+print(months[25]) # IndexError: list index out of range
+
+list_of_random_things = [1, 3.4, 'a string', True]
+
+list_of_random_things[len(list_of_random_things) - 1]  # To get the last element from a list
+list_of_random_things[-1]  # To get the last element from a list
+
+# Slicing a List
+print(months[6:9]) # [ 'July', 'August', 'September']
+print(months[months[:6]) # ['January', 'February', 'March', 'April', 'May', 'June']
+print(months[months[6:]) # ['July', 'August', 'September', 'October', 'November', 'December']
+
+# Membership Operators
+
+# in - Evaluates if object on left side is included in object on right side.
+# noi in - Evaluates if object on left side is not included in object on right side.
+
+# Examples:
+'in' in 'this is a string' # True
+'isa' in 'this is a string' # False
+5 not in [1, 2, 3, 4, 6] # True
+5 in [1, 2, 3, 4, 6] # False
