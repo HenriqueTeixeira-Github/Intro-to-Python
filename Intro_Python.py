@@ -153,3 +153,20 @@ first_name[0]
 # Result: "J"
 first_name[1]
 # Result: "o"
+
+# Type and Type Conversion
+
+int()   # -> To convert to an int
+float() # -> To convert to a float
+bool()  # -> To convert to a boolean
+str()   # -> To convert to a string
+
+# Example:
+
+house_number = 13
+street_name = "The Crescent"
+town_home = "Belmont"
+print(type(house_name))     # <class 'int'="">
+
+address = str(house_number) + " " + street_name + ", " + town_name
+print(address)
