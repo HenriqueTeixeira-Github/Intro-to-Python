@@ -61,8 +61,26 @@ my_long = 105
 
 x += 2 # -> x = x + 2
 x -= 2 # -> x = x - 2
-x *= 2 # -> x = x * 2 
+x *= 2 # -> x = x * 2
 x /= 2 # -> x = x / 2
 x %= 2 # -> x = x % 2
 x //= 2 # -> x = x // 2
 x **= 2 # -> x = x ** 2
+
+# Integers and Floats
+
+# int - for integer values
+# float - for decimal or floating point values
+
+# You can check the data type of a number with the function called "type()"
+# Example:
+print(type(4))
+# Result: <class 'int'>
+
+# int() - Convert a number to integer
+int(4.2) # -> 4
+# float() - Conver a number to float
+float(4) # -> 4.0
+
+# Be aware that float numbers use the approximation of a number.
+# So you need to be careful to some operations like equalit.
